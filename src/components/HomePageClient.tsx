@@ -31,7 +31,7 @@ const HomePageClient: React.FC<HomePageClientProps> = ({
   };
 
   return (
-    <div className="bg-main pb-8 flex flex-col overflow-y-hidden h-screen justify-around items-center">
+    <div className="bg-main pb-8 flex flex-col overflow-y-auto h-screen justify-around items-center">
       <div className="my-2 max-w-screen-lg flex-col text-center px-8 py-4 rounded-lg shadow-lg text-white">
         <h1 className="text-3xl font-bold mb-4 bg-gradient-to-r from-yellow-500 to-red-500 bg-clip-text text-transparent">
           Welcome to Cocktails Book
